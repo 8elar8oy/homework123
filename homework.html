@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <script>
+        //1
+        const string = 'Homework'
+        console.log(string.length)
+        //2
+        console.log(string[string.length-1])
+        //3
+        console.log(string[0])
+        //4
+        console.log(string.toUpperCase())
+        //5
+        console.log(string.toLowerCase())
+        //6
+        const string1 = 'H o m e w o r k'
+        console.log(string1.replaceAll(' ','-'))
+        //7
+        console.log(string1.split(' '))
+        //8
+        const string3 = 'Homework New'
+        console.log(string3.includes('New'))
+        //9
+        const sStr = 'New'
+        console.log(string3.endsWith(sStr))
+        //10
+        const sStr1 = 'Home'
+        console.log(string3.startsWith(sStr1))
+        ///////////
+        //1
+        const num1 = -12
+        const num2 = 23
+        console.log(num1+num2)
+        //2
+        console.log(num1**2)
+        //3
+        console.log(Math.abs(num1))
+        //4
+        const arr = [
+            1,2,3,4,5
+        ]
+        let sum = 0;
+        for(let i = 0; i< arr.length;i++){
+            sum+=arr[i];
+        }
+        console.log(sum/arr.length)
+        //5
+        const abc = true
+        console.log(!abc)
+
+    </script>
+</body>
